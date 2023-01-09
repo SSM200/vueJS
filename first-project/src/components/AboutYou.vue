@@ -12,8 +12,10 @@
 
             Pin Code: <input type="text" v-model="login_data.pincode" placeholder="Enter the pin code">
             <br/>
-
-            <button type="submit" v-on:click="login">Submit</button>
+            
+            <RouterLink to="/products">
+                <button type="submit" v-on:click="login">Submit</button>
+            </RouterLink>
         </form>
     </div>
 </template>
